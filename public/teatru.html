@@ -1,0 +1,120 @@
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="/css/teatruStyle.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+        <title>Contul meu</title>
+    </head>
+    <body>
+        <header>
+            <a name="top"></a>
+            <nav class="navbar">
+                <div id="crowdsBar">
+                    <p style="float: left"><a href="crowds.html">crowds</a></p>
+                </div>
+                <ul>
+                    <li><a href="muzica.html">MUZICA</a></li>
+                    <li><a href="teatru.html">TEATRU</a></li>
+                    <li><a href="film.html">FILM</a></li>
+                    <div class="dropdown">
+                        <li class="dropbtn">Cont
+                            <i class="fa fa-caret-down"></i>
+                        </li>
+                        <div class="dropdown-content">
+                            <a action="/delogare" method="get" href="/delogare">Deconectare</a>
+                        </div>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+        <h1>Evenimentele din categoria <span>TEATRU<span></h1>
+        <div class="grid-container">
+            <div class="card">
+                <img src="/css/teatru/grid1.jpg" style="width:27%; margin-top:65px; margin-left:20px; border: 3px solid white;">
+                <div class="container">
+                    <h4><b>Richard al III-lea</b></h4>
+                    <img style="width:5%; margin-left:16px;" src="/css/gen.png"></img><p> Dramă istorică </p>
+                    <img style="width:4%; margin-left:22px;" src="/css/date.png"></img><p> 10 decembrie 2021, 20:00</p>
+                    <img style="width:2.7%; margin-left:25px;" src="/css/location.png"></img><a href="https://goo.gl/maps/t2vVtQEnt1is3Zp37" target="_blank"><p> Teatrul Naţional - Bucureşti</p></a>
+                    <p style="margin-left: 33.5%; font-family: 'Roboto', sans-serif; color: #F78080; font-size:20px;">★ Preţ: 45 lei ★</p>
+                    <form name="teatru1" class="search" action="/biletTeatru1" method="post">
+                        <input type = "hidden" name = "topic" value = "something"/>
+                        <button name="buton1" class="button">Rezervare bilet</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/css/teatru/grid2.jpg" style="width:27%; margin-top:65px; margin-left:20px; border: 3px solid white;">
+                <div class="container">
+                    <h4><b>Amurg</b></h4>
+                    <img style="width:5%; margin-left:16px;" src="/css/gen.png"></img><p> Dans contemporan </p>
+                    <img style="width:4%; margin-left:22px;" src="/css/date.png"></img><p> 25 noiembrie 2021, 19:00</p>
+                    <img style="width:2.7%; margin-left:25px;" src="/css/location.png"><a href="https://goo.gl/maps/bfuxAxjgkqjmenvJ8" target="_blank"></img><p> Teatrul de Balet - Sibiu </p></a>
+                    <p style="margin-left: 33.5%; font-family: 'Roboto', sans-serif; color: #F78080; font-size:20px;">★ Preţ: 35 lei ★</p>
+                    <form name="teatru2" class="search" action="/biletTeatru2" method="post">
+                        <input type = "hidden" name = "topic" value = "something"/>
+                        <button name="buton2" class="button">Rezervare bilet</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/css/teatru/grid3.jpg" style="width:27%; margin-top:65px; margin-left:20px; border: 3px solid white;">
+                <div class="container">
+                    <h4><b>Tribut Tchaikovsky</b></h4>
+                    <img style="width:5%; margin-left:16px;" src="/css/gen.png"></img><p> Balet </p>
+                    <img style="width:4%; margin-left:22px;" src="/css/date.png"></img><p> 5 decembrie 2021, 19:50</p>
+                    <img style="width:2.7%; margin-left:25px;" src="/css/location.png"></img><a href="https://goo.gl/maps/bfuxAxjgkqjmenvJ8" target="_blank"><p> Teatrul de Balet - Sibiu</p></a>
+                    <p style="margin-left: 33.5%; font-family: 'Roboto', sans-serif; color: #F78080; font-size:20px;">★ Preţ: 45 lei ★</p>
+                    <form name="teatru3" class="search" action="/biletTeatru3" method="post">
+                        <input type = "hidden" name = "topic" value = "something"/>
+                        <button name="buton3" class="button">Rezervare bilet</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/css/teatru/grid4.jpg" style="width:27%; margin-top:65px; margin-left:20px; border: 3px solid white;">
+                <div class="container">
+                    <h4><b>Masculin / Feminin</b></h4>
+                    <img style="width:5%; margin-left:16px;" src="/css/gen.png"></img><p> Comedie romantică </p>
+                    <img style="width:4%; margin-left:22px;" src="/css/date.png"></img><p> 22 septembrie, 17:00</p>
+                    <img style="width:2.7%; margin-left:25px;" src="/css/location.png"></img><a href="https://g.page/teatruldavila?share" target="_blank"><p> Teatrul Alexandru Davila - Piteşti</p></a>
+                    <p style="margin-left: 33.5%; font-family: 'Roboto', sans-serif; color: #F78080; font-size:20px;">★ Preţ: 50 lei ★</p>
+                    <form name="teatru4" class="search" action="/biletTeatru4" method="post">
+                        <input type = "hidden" name = "topic" value = "something"/>
+                        <button name="buton4" class="button">Rezervare bilet</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/css/teatru/grid5.jpg" style="width:27%; margin-top:65px; margin-left:20px; border: 3px solid white;">
+                <div class="container">
+                    <h4><b>Peretele</b></h4>
+                    <img style="width:5%; margin-left:16px;" src="/css/gen.png"></img><p> Comedie </p>
+                    <img style="width:4%; margin-left:22px;" src="/css/date.png"></img><p> 4 octombrie 2021, 18:30</p>
+                    <img style="width:2.7%; margin-left:25px;" src="/css/location.png"></img><a href="https://goo.gl/maps/EeXzvdmkAimkCFNr6" target="_blank"><p> Teatrul Metropolis - Bucureşti</p></a>
+                    <p style="margin-left: 33.5%; font-family: 'Roboto', sans-serif; color: #F78080; font-size:20px;">★ Preţ: 40 lei ★</p>
+                    <form name="teatru5" class="search" action="/biletTeatru5" method="post">
+                        <input type = "hidden" name = "topic" value = "something"/>
+                        <button name="buton5" class="button">Rezervare bilet</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/css/teatru/grid6.jpg" style="width:27%; margin-top:65px; margin-left:20px; border: 3px solid white;">
+                <div class="container">
+                    <h4><b>Micul infern</b></h4>
+                    <img style="width:5%; margin-left:16px;" src="/css/gen.png"></img><p> Comedie </p>
+                    <img style="width:4%; margin-left:22px;" src="/css/date.png"></img><p> 24 noiembrie 2021, 16:00</p>
+                    <img style="width:2.7%; margin-left:25px;" src="/css/location.png"></img><a href="https://g.page/inculise?share" target="_blank"><p> Teatrul În Culise - Bucureşti</p></a>
+                    <p style="margin-left: 33.5%; font-family: 'Roboto', sans-serif; color: #F78080; font-size:20px;">★ Preţ: 55 lei ★</p>
+                    <form name="teatru6" class="search" action="/biletTeatru6" method="post">
+                        <input type = "hidden" name = "topic" value = "something"/>
+                        <button name="buton6" class="button">Rezervare bilet</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+    <a class="backToTop" href="#top"> <i class="fas fa-arrow-up"></i> </a>
+</html>

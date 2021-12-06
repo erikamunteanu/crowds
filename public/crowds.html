@@ -1,0 +1,50 @@
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <script src="crowdsJavascript.js"></script>
+        <link rel="stylesheet" type="text/css" href="/css/crowdsStyle.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+        <title>crowds</title>
+    </head>
+    <body>
+        <header>
+            <a name="top"></a>
+            <nav class="navbar">
+                <div id="crowdsBar">
+                    <p style="float: left"><a href="crowds.html">crowds</a></p>
+                </div>
+                <ul>
+                    <li><a href="muzica.html">MUZICA</a></li>
+                    <li><a href="teatru.html">TEATRU</a></li>
+                    <li><a href="film.html">FILM</a></li>
+                    <div class="dropdown">
+                        <li class="dropbtn">Cont
+                            <i class="fa fa-caret-down"></i>
+                        </li>
+                        <div class="dropdown-content">
+                            <a method="get" href="/delogare">Deconectare</a>
+                        </div>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+        <div class="textMainPage">
+            <p>Abonează-te la <span> newsletter </span> pentru a avea acces primul la noutăţi:</p>
+            <form name="form1" onsubmit="return validareEmail(this)" class="search" action="/abonare" method="post">
+                    <input id="val" type="text" class="sendNewsletter" placeholder="Adresa de e-mail" name="adresamail" required></input>
+                    <button id="getMail" type="submit" class="newsletterButton"></button>
+            </form>
+        </div>
+        <div id="slideshow">
+            <div id="buttonsSlideshow">
+                <button id="leftButton" onclick="leftButton()"> < </button>
+                <button id="rightButton" onclick="rightButton()"> > </button>
+            </div>
+        </div>
+        <footer>
+            <p id="date"></p>
+        </footer>
+        <a class="backToTop" href="#top"> <i class="fas fa-arrow-up"></i> </a>
+    </body>
+</html>

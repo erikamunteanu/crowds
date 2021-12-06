@@ -1,0 +1,120 @@
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="/css/muzicaStyle.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+        <title>Contul meu</title>
+    </head>
+    <body>
+        <header>
+            <a name="top"></a>
+            <nav class="navbar">
+                <div id="crowdsBar">
+                    <p style="float: left"><a href="crowds.html">crowds</a></p>
+                </div>
+                <ul>
+                    <li><a href="muzica.html">MUZICA</a></li>
+                    <li><a href="teatru.html">TEATRU</a></li>
+                    <li><a href="film.html">FILM</a></li>
+                    <div class="dropdown">
+                        <li class="dropbtn">Cont
+                            <i class="fa fa-caret-down"></i>
+                        </li>
+                        <div class="dropdown-content">
+                            <a action="/delogare" method="get" href="/delogare">Deconectare</a>
+                        </div>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+        <h1>Evenimentele din categoria <span>MUZICĂ<span></h1>
+        <div class="grid-container">
+            <div class="card">
+                <img src="/css/muzica/grid1.jpg" style="width:27%; margin-top:65px; margin-left:20px; border: 3px solid white;">
+                <div class="container">
+                    <a href="https://www.thurstonmoore.com/" target="_blank"><h4><b>Thurston Moore</b></h4></a>
+                    <img style="width:5%; margin-left:16px;" src="/css/genre.png"></img><p> Rock alternativ </p>
+                    <img style="width:4%; margin-left:22px;" src="/css/date.png"></img><p> 24 iunie 2022, 20:00</p>
+                    <img style="width:2.7%; margin-left:25px;" src="/css/location.png"></img><a href="https://goo.gl/maps/HGs3dfCr5FzcEg2y7" target="_blank"><p> Piaţa Constituţiei - Bucureşti</p></a>
+                    <p style="margin-left: 33.5%; font-family: 'Roboto', sans-serif; color: #F7F799; font-size:20px;">★ Preţ: 220 lei ★</p>
+                    <form name="muzica1" class="search" action="/biletMuzica1" method="post">
+                        <input type = "hidden" name = "topic" value = "something"/>
+                        <button name="buton1" onclick="clickButon()" class="button">Rezervare bilet</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/css/muzica/grid2.jpg" style="width:27%; margin-top:65px; margin-left:20px; border: 3px solid white;">
+                <div class="container">
+                    <a href="https://www.angelolsen.com/" target="_blank"><h4><b>Angel Olsen</b></h4></a>
+                    <img style="width:5%; margin-left:16px;" src="/css/genre.png"></img><p> Indie folk </p>
+                    <img style="width:4%; margin-left:22px;" src="/css/date.png"></img><p> 30 iulie 2022, 19:00</p>
+                    <img style="width:2.7%; margin-left:25px;" src="/css/location.png"></img><a href="https://goo.gl/maps/93CrLbDqYquardQh7" target="_blank"><p> Grădina de Vară - Bucureşti</p></a>
+                    <p style="margin-left: 33.5%; font-family: 'Roboto', sans-serif; color: #F7F799; font-size:20px;">★ Preţ: 120 lei ★</p>
+                    <form name="muzica2" class="search" action="/biletMuzica2" method="post">
+                        <input type = "hidden" name = "topic" value = "something"/>
+                        <button name="buton1" onclick="clickButon()" class="button">Rezervare bilet</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/css/muzica/grid3.jpg" style="width:27%; margin-top:65px; margin-left:20px; border: 3px solid white;">
+                <div class="container">
+                    <a href="https://www.surfcurse.com/" target="_blank"><h4><b>Surf Curse</b></h4></a>
+                    <img style="width:5%; margin-left:16px;" src="/css/genre.png"></img><p> Surf rock </p>
+                    <img style="width:4%; margin-left:22px;" src="/css/date.png"></img><p> 2 august 2022, 19:30</p>
+                    <img style="width:2.7%; margin-left:25px;" src="/css/location.png"><a href="https://goo.gl/maps/WqkLnpXYN4vDPJ987" target="_blank"></img><p> Plaja Neversea - Constanţa</p></a>
+                    <p style="margin-left: 33.5%; font-family: 'Roboto', sans-serif; color: #F7F799; font-size:20px;">★ Preţ: 200 lei ★</p>
+                    <form name="muzica3" class="search" action="/biletMuzica3" method="post">
+                        <input type = "hidden" name = "topic" value = "something"/>
+                        <button name="buton3" onclick="clickButon()" class="button">Rezervare bilet</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/css/muzica/grid4.jpg" style="width:27%; margin-top:65px; margin-left:20px; border: 3px solid white;">
+                <div class="container">
+                    <a href="https://www.Underworldlive.com/" target="_blank"><h4><b>Underworld</b></h4></a>
+                    <img style="width:5%; margin-left:16px;" src="/css/genre.png"></img><p> Electronic </p>
+                    <img style="width:4%; margin-left:22px;" src="/css/date.png"></img><p> 29 iulie 2022, 22:00</p>
+                    <img style="width:2.7%; margin-left:25px;" src="/css/location.png"></img><a href="https://goo.gl/maps/bRQ9y263pWurCThs5" target="_blank"><p> Romexpo - Bucureşti</p></a>
+                    <p style="margin-left: 33.5%; font-family: 'Roboto', sans-serif; color: #F7F799; font-size:20px;">★ Preţ: 165 lei ★</p>
+                    <form name="muzica4" class="search" action="/biletMuzica4" method="post">
+                        <input type = "hidden" name = "topic" value = "something"/>
+                        <button name="buton4" onclick="clickButon()" class="button">Rezervare bilet</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/css/muzica/grid5.jpg" style="width:27%; margin-top:65px; margin-left:20px; border: 3px solid white;">
+                <div class="container">
+                    <a href="https://www.zhumusic.com/" target="_blank"><h4><b>ZHU</b></h4></a>
+                    <img style="width:5%; margin-left:16px;" src="/css/genre.png"></img><p> Electronic </p>
+                    <img style="width:4%; margin-left:22px;" src="/css/date.png"></img><p> 15 august 2022, 23:00</p>
+                    <img style="width:2.7%; margin-left:25px;" src="/css/location.png"></img><a href="https://goo.gl/maps/42iSR6C1S7hMhwC49" target="_blank"><p> Piaţa Sfatului - Braşov</p></a>
+                    <p style="margin-left: 33.5%; font-family: 'Roboto', sans-serif; color: #F7F799; font-size:20px;">★ Preţ: 210 lei ★</p>
+                    <form name="muzica5" class="search" action="/biletMuzica5" method="post">
+                        <input type = "hidden" name = "topic" value = "something"/>
+                        <button name="buton5" onclick="clickButon()" class="button">Rezervare bilet</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/css/muzica/grid6.jpg" style="width:27%; margin-top:65px; margin-left:20px; border: 3px solid white;">
+                <div class="container">
+                    <a href="https://www.justinwarfield.com/" target="_blank"><h4><b>Justin Warfield</b></h4></a>
+                    <img style="width:5%; margin-left:16px;" src="/css/genre.png"></img><p> Rock alternativ </p>
+                    <img style="width:4%; margin-left:22px;" src="/css/date.png"></img><p> 18 august 2022, 20:00</p>
+                    <img style="width:2.7%; margin-left:25px;" src="/css/location.png"></img><a href="https://goo.gl/maps/yK7kV84gwZbk5ppq9" target="_blank"><p> Arenele Romane - Bucureşti</p></a>
+                    <p style="margin-left: 33.5%; font-family: 'Roboto', sans-serif; color: #F7F799; font-size:20px;">★ Preţ: 120 lei ★</p>
+                    <form name="muzica6" class="search" action="/biletMuzica6" method="post">
+                        <input type = "hidden" name = "topic" value = "something"/>
+                        <button name="buton6" onclick="clickButon()" class="button">Rezervare bilet</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+    <a class="backToTop" href="#top"> <i class="fas fa-arrow-up"></i> </a>
+</html>

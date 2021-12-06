@@ -1,0 +1,120 @@
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="/css/filmStyle.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+        <title>Contul meu</title>
+    </head>
+    <body>
+        <header>
+            <a name="top"></a>
+            <nav class="navbar">
+                <div id="crowdsBar">
+                    <p style="float: left"><a href="crowds.html">crowds</a></p>
+                </div>
+                <ul>
+                    <li><a href="muzica.html">MUZICA</a></li>
+                    <li><a href="teatru.html">TEATRU</a></li>
+                    <li><a href="film.html">FILM</a></li>
+                    <div class="dropdown">
+                        <li class="dropbtn">Cont
+                            <i class="fa fa-caret-down"></i>
+                        </li>
+                        <div class="dropdown-content">
+                            <a action="/delogare" method="get" href="/delogare">Deconectare</a>
+                        </div>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+        <h1>Evenimentele din categoria <span>FILM<span></h1>
+        <div class="grid-container">
+            <div class="card">
+                <img src="/css/film/grid1.jpg" style="width:18%; margin-top:65px; margin-left:20px; border: 3px solid white;">
+                <div class="container">
+                    <a href="https://www.imdb.com/title/tt0816692" target="_blank"><h4><b>Interstellar</b></h4></a>
+                    <img style="width:5%; margin-left:21px;" src="/css/film.png"></img><p> Aventură | Dramă | Sci-Fi </p>
+                    <img style="width:4%; margin-left:22px;" src="/css/date.png"></img><p> 10 septembrie 2021, 20:00</p>
+                    <img style="width:2.7%; margin-left:25px;" src="/css/location.png"></img><a href="https://goo.gl/maps/cunV7BhYUs96Qqsm8" target="_blank"><p> Parcul IOR - Bucureşti</p></a>
+                    <p style="margin-left: 33.5%; font-family: 'Roboto', sans-serif; color: #B1E2EF; font-size:20px;">★ Preţ: 21 lei ★</p>
+                    <form name="film1" class="search" action="/biletFilm1" method="post">
+                        <input type = "hidden" name = "topic" value = "something"/>
+                        <button name="buton1" class="button">Rezervare bilet</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/css/film/grid2.jpg" style="width:18%; margin-top:65px; margin-left:20px; border: 3px solid white;">
+                <div class="container">
+                    <a href="https://www.imdb.com/title/tt0386117/" target="_blank"><h4><b>Where the Wild Things Are</b></h4></a>
+                    <img style="width:5%; margin-left:21px;" src="/css/film.png"></img><p> Aventură | Dramă </p>
+                    <img style="width:4%; margin-left:22px;" src="/css/date.png"></img><p> 2 noiembrie 2021, 19:00</p>
+                    <img style="width:2.7%; margin-left:25px;" src="/css/location.png"></img><a href="https://goo.gl/maps/K4fiAjgA4uWGa4F48" target="_blank"><p> Romexpo - Bucureşti </p></a>
+                    <p style="margin-left: 33.5%; font-family: 'Roboto', sans-serif; color: #B1E2EF; font-size:20px;">★ Preţ: 15 lei ★</p>
+                    <form name="film2" class="search" action="/biletFilm2" method="post">
+                        <input type = "hidden" name = "topic" value = "something"/>
+                        <button name="buton2" class="button">Rezervare bilet</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/css/film/grid3.jpg" style="width:18%; margin-top:65px; margin-left:20px; border: 3px solid white;">
+                <div class="container">
+                    <a href="https://www.imdb.com/title/tt2084970" target="_blank"><h4><b>The Imitation Game</b></h4></a>
+                    <img style="width:5%; margin-left:21px;" src="/css/film.png"></img><p> Biografie | Dramă | Thriller </p>
+                    <img style="width:4%; margin-left:22px;" src="/css/date.png"></img><p> 10 octombrie 2021, 19:50</p>
+                    <img style="width:2.7%; margin-left:25px;" src="/css/location.png"></img><a href="https://goo.gl/maps/biZDH16rS84Q2C4z7" target="_blank"><p> Grădina cu Filme - Bucureşti</p></a>
+                    <p style="margin-left: 33.5%; font-family: 'Roboto', sans-serif; color: #B1E2EF; font-size:20px;">★ Preţ: 19 lei ★</p>
+                    <form name="film3" class="search" action="/biletFilm3" method="post">
+                        <input type = "hidden" name = "topic" value = "something"/>
+                        <button name="buton3" class="button">Rezervare bilet</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/css/film/grid4.jpg" style="width:18%; margin-top:65px; margin-left:20px; border: 3px solid white;">
+                <div class="container">
+                    <a href="https://www.imdb.com/title/tt2980516" target="_blank"><h4><b>The Theory of Everything</b></h4></a>
+                    <img style="width:5%; margin-left:21px;" src="/css/film.png"></img><p> Biografie | Dramă | Romantic </p>
+                    <img style="width:4%; margin-left:22px;" src="/css/date.png"></img><p> 22 septembrie, 21:00</p>
+                    <img style="width:2.7%; margin-left:25px;" src="/css/location.png"></img><a href="https://goo.gl/maps/46tgBCbNfp5S9KK86" target="_blank"><p> Terasa Cinema Elvira Popescu - Bucureşti </p></a>
+                    <p style="margin-left: 33.5%; font-family: 'Roboto', sans-serif; color: #B1E2EF; font-size:20px;">★ Preţ: 22 lei ★</p>
+                    <form name="film4" class="search" action="/biletFilm4" method="post">
+                        <input type = "hidden" name = "topic" value = "something"/>
+                        <button name="buton4" class="button">Rezervare bilet</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/css/film/grid5.jpg" style="width:18%; margin-top:65px; margin-left:20px; border: 3px solid white;">
+                <div class="container">
+                    <a href="https://www.imdb.com/title/tt0084787" target="_blank"><h4><b>The Thing</b></h4></a>
+                    <img style="width:5%; margin-left:21px;" src="/css/film.png"></img><p> Horror | Mister | Sci-Fi </p>
+                    <img style="width:4%; margin-left:22px;" src="/css/date.png"></img><p> 4 octombrie 2021, 20:30</p>
+                    <img style="width:2.7%; margin-left:25px;" src="/css/location.png"></img><a href="https://goo.gl/maps/K4fiAjgA4uWGa4F48" target="_blank"><p> Romexpo - Bucureşti</p></a>
+                    <p style="margin-left: 33.5%; font-family: 'Roboto', sans-serif; color: #B1E2EF; font-size:20px;">★ Preţ: 30 lei ★</p>
+                    <form name="film5" class="search" action="/biletFilm5" method="post">
+                        <input type = "hidden" name = "topic" value = "something"/>
+                        <button name="buton5" class="button">Rezervare bilet</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/css/film/grid6.jpg" style="width:18%; margin-top:65px; margin-left:20px; border: 3px solid white;">
+                <div class="container">
+                    <a href="https://www.imdb.com/title/tt0268978" target="_blank"><h4><b>A Beautiful Mind</b></h4></a>
+                    <img style="width:5%; margin-left:21px;" src="/css/film.png"></img><p> Biografie | Dramă </p>
+                    <img style="width:4%; margin-left:22px;" src="/css/date.png"></img><p> 13 septembrie 2021, 21:00</p>
+                    <img style="width:2.7%; margin-left:25px;" src="/css/location.png"></img><a href="https://goo.gl/maps/P75Przj8LVBLwzyh8" target="_blank"><p> Parcul Izvor - Bucureşti</p></a>
+                    <p style="margin-left: 33.5%; font-family: 'Roboto', sans-serif; color: #B1E2EF; font-size:20px;">★ Preţ: 24 lei ★</p>
+                    <form name="film6" class="search" action="/biletFilm6" method="post">
+                        <input type = "hidden" name = "topic" value = "something"/>
+                        <button name="buton6" class="button">Rezervare bilet</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+    <a class="backToTop" href="#top"> <i class="fas fa-arrow-up"></i> </a>
+</html>

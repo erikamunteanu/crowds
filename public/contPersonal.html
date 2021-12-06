@@ -1,0 +1,78 @@
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <script src="contPersonalJavascript.js"></script>
+        <link rel="stylesheet" type="text/css" href="/css/contPersonalStyle.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+        <title>Contul meu</title>
+    </head>
+    <body>
+        <header>
+            <a name="top"></a>
+            <nav class="navbar">
+                <div id="crowdsBar">
+                    <p style="float: left"><a href="contPersonal.html">crowds</a></p>
+                </div>
+                <ul>
+                    <li>MUZICA</a></li>
+                    <li>TEATRU</a></li>
+                    <li>FILM</a></li>
+                    <li>
+                        <div class="logoImage">
+                            <a href="contPersonal.html"><img src="/css/avatar.png"  alt="avatar" id="avatar" width="30" height="30"></img></a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="flexbox">
+            <div>
+                <div class="wrap">
+                    <form class="login-form" onsubmit="return validareEmail(this)" action="/inregistrare" method="post">
+                        <div class="form-header">
+                            <p>Cont nou<p>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="nume" class="form-input" placeholder="Nume" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="prenume" class="form-input" placeholder="Prenume" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="birthday" type="text">Data naşterii</label>
+                            <input type="date" name="nastere" id="birthday" name="birthday" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="adresa" class="form-input" placeholder="exemplu@mail.com" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" name="parola" class="form-input" placeholder="Parolă" required>
+                        </div>
+                        <div class="form-group">
+                            <button class="form-button" type="submit">Înregistrare</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div>
+                <div id="loginf" class="wrap">
+                    <form class="login-form" action="/logare" method="post">
+                        <div class="form-header">
+                            <p id="login">Autentificare</p>
+                        </div>
+                        <div class="form-group">
+                            <input id="loginemail" type="text" name="adresa2" class="form-input" placeholder="exemplu@mail.com" required>
+                        </div>
+                        <div class="form-group">
+                            <input id="login" name="parola2" type="password" class="form-input" placeholder="Parolă" required>
+                        </div>
+                        <div class="form-group">
+                            <button id="loginbutton" class="form-button" type="submit">Logare</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
